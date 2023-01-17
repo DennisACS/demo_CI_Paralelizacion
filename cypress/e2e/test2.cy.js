@@ -22,7 +22,6 @@ describe('test 2', () => {
 
           inventoryPage.elements.title().should('have.text',test.expected)
       }
-
       else{
         loginPage.elements.errorMessage().should('have.text',test.expected)
       }
