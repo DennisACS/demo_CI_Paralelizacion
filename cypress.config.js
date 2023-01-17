@@ -10,5 +10,6 @@ module.exports = defineConfig({
     baseUrl: "https://www.saucedemo.com/",
     chromeWebSecurity: false,
     supportFile: false,
+    projectId: 'v8z522',
   },
 });
