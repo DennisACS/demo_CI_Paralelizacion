@@ -1,0 +1,19 @@
+{
+  "name": "cypress-data-driven-fixture",
+  "version": "1.0.0",
+  "description": "Ejemplo de cypress con data driven fixture",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "fixture",
+    "DataDriven"
+  ],
+  "author": "DennisACS",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.3.0"
+  }
+}
