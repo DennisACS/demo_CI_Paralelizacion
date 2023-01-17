@@ -21,7 +21,6 @@ describe('test 2', () => {
       if(test.name == 'should login to inventory page'){
 
           inventoryPage.elements.title().should('have.text',test.expected)
-
       }
 
       else{
