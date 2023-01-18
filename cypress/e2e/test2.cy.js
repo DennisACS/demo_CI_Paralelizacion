@@ -9,7 +9,6 @@ describe('test 2', () => {
     cy.visit("/")
 
   })
-
   tests.forEach(test => {
 
     it(test.name, () => {
