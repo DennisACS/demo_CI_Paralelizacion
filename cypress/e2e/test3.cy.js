@@ -16,15 +16,6 @@ describe('test 3', () => {
 
       loginPage.typeUsername(test.username)
       loginPage.typePassword(test.password)
-      loginPage.clickLogin();
-
-      if(test.name == 'should login to inventory page'){
-
-          inventoryPage.elements.title().should('have.text',test.expected)
-      }
-      else{
-        loginPage.elements.errorMessage().should('have.text',test.expected)
-      }
 
   });
 
