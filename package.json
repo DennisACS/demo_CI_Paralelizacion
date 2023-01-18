@@ -4,7 +4,8 @@
   "description": "Ejemplo de cypress con data driven fixture",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "cypress-run": "cypress run --record --parallel --group Paralelizacion"
   },
   "keywords": [
     "cypress",
