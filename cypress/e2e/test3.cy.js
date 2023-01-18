@@ -16,7 +16,6 @@ describe('test 3', () => {
 
       loginPage.typeUsername(test.username)
       loginPage.typePassword(test.password)
-
   });
 
   }) 
