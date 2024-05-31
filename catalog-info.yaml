@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo_CI_Paralelizacion
+  annotations:
+    github.com/project-slug: DennisACS/demo_CI_Paralelizacion
+spec:
+  type: other
+  lifecycle: unknown
+  owner: prueba
